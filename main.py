@@ -10,8 +10,9 @@ def display_text_from_folder(folder_path):
                     with open(text_filename, "r") as text_file:
                         text = text_file.read()
                         print(f"Содержимое файла {text_filename}:\n{text}")
-                    time.sleep(0.5) 
+                    time.sleep(0.2) 
 
 if __name__ == "__main__":
-    folder_path = "./ASCIIimages/"  # Замените на путь к папке, в которой хранятся текстовые файлы
+    folder_path = "./test2/"  # Замените на путь к папке, в которой хранятся текстовые файлы
     display_text_from_folder(folder_path)
+    
