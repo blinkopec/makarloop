@@ -13,6 +13,6 @@ def display_text_from_folder(folder_path):
                     time.sleep(0.2) 
 
 if __name__ == "__main__":
-    folder_path = "./test2/"  # Замените на путь к папке, в которой хранятся текстовые файлы
+    folder_path = "./ASCII_images/"  # Замените на путь к папке, в которой хранятся текстовые файлы
     display_text_from_folder(folder_path)
     
